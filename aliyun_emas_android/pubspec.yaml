@@ -1,5 +1,6 @@
 name: aliyun_emas_android
 description: Android implementation of the aliyun_emas plugin
+repository: https://github.com/kimmy214/aliyun_emas/tree/main/aliyun_emas
 version: 0.0.1+1
 
 environment:
@@ -18,8 +19,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  aliyun_emas_platform_interface:
-    path: ../aliyun_emas_platform_interface
+  aliyun_emas_platform_interface: 0.0.1+1
 
 dev_dependencies:
   flutter_test:

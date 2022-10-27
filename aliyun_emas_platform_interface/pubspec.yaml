@@ -1,5 +1,6 @@
 name: aliyun_emas_platform_interface
 description: A common platform interface for the aliyun_emas plugin.
+repository: https://github.com/kimmy214/aliyun_emas/tree/main/aliyun_emas_platform_interface
 version: 0.0.1+1
 
 environment:
