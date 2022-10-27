@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   An iOS implementation of the aliyun_emas plugin.
                        DESC
-  s.homepage         = 'http://example.com'
-  s.license          = { :type => 'BSD', :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }  
+  s.homepage         = 'http://kimmy.me'
+  s.license          = { :type => 'MIT', :file => '../LICENSE' }
+  s.author           = { 'Kimmy' => 'hi@kimmy.me' }
+  s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
 
   s.platform = :ios, '9.0'
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }  
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 end

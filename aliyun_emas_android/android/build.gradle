@@ -1,4 +1,4 @@
-group 'me.kimmy.plugins.aliyun.emas'
+group 'me.kimmy.plugins.aliyunemas'
 version '1.0-SNAPSHOT'
 
 buildscript {

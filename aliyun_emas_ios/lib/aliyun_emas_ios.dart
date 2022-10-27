@@ -13,7 +13,7 @@ import 'package:flutter/services.dart';
 class AliyunEmasIOS extends AliyunEmasPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('aliyun_emas_ios');
+  final methodChannel = const MethodChannel('plugins.kimmy.me/aliyun_emas_ios');
 
   /// Registers this class as the default instance of [AliyunEmasPlatform]
   static void registerWith() {

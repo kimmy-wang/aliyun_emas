@@ -1,4 +1,4 @@
-package me.kimmy.plugins.aliyun.emas
+package me.kimmy.plugins.aliyunemas
 
 import android.content.Context
 import androidx.annotation.NonNull
@@ -14,14 +14,14 @@ class AliyunEmasPlugin : FlutterPlugin, MethodCallHandler {
     private var context: Context? = null
 
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "aliyun_emas_android")
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "plugins.kimmy.me/aliyun_emas_android")
         channel.setMethodCallHandler(this)
         context = flutterPluginBinding.applicationContext
     }
 
     override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
         if (call.method == "getPlatformName") {
-            result.success("Android")            
+            result.success("Android")
         } else {
             result.notImplemented()
         }

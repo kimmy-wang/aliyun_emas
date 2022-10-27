@@ -13,7 +13,7 @@ import 'package:flutter/services.dart';
 class MethodChannelAliyunEmas extends AliyunEmasPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('aliyun_emas');
+  final methodChannel = const MethodChannel('plugins.kimmy.me/aliyun_emas');
 
   @override
   Future<String?> getPlatformName() {
