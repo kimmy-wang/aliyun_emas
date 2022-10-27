@@ -1,0 +1,21 @@
+name: aliyun_emas_ios
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/aliyun_emas_ios.yaml"
+      - "aliyun_emas_ios/**"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/aliyun_emas_ios.yaml"
+      - "aliyun_emas_ios/**"
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      flutter_channel: stable
+      flutter_version: 3.3.2
+      working_directory: aliyun_emas_ios

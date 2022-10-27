@@ -1,0 +1,33 @@
+name: aliyun_emas
+description: Aliyun EMAS
+version: 0.0.1+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.3.2"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: aliyun_emas_android
+      ios:
+        default_package: aliyun_emas_ios
+
+dependencies:
+  flutter:
+    sdk: flutter
+  aliyun_emas_android:
+    path: ../aliyun_emas_android
+  aliyun_emas_ios:
+    path: ../aliyun_emas_ios
+  aliyun_emas_platform_interface:
+    path: ../aliyun_emas_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  plugin_platform_interface: ^2.0.0
+  very_good_analysis: ^3.1.0
