@@ -1,5 +1,8 @@
 # aliyun_emas_ios
 
+[![pub package](https://img.shields.io/pub/v/aliyun_emas_ios.svg)](https://pub.dev/packages/aliyun_emas_ios)
+
+
 The ios implementation of `aliyun_emas`.
 
 ## Usage

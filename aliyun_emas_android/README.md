@@ -1,5 +1,7 @@
 # aliyun_emas_android
 
+[![pub package](https://img.shields.io/pub/v/aliyun_emas_android.svg)](https://pub.dev/packages/aliyun_emas_android)
+
 The Android implementation of `aliyun_emas`.
 
 ## Usage

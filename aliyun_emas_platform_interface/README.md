@@ -1,5 +1,7 @@
 # aliyun_emas_platform_interface
 
+[![pub package](https://img.shields.io/pub/v/aliyun_emas_platform_interface.svg)](https://pub.dev/packages/aliyun_emas_platform_interface)
+
 A common platform interface for the `aliyun_emas` plugin.
 
 This interface allows platform-specific implementations of the `aliyun_emas` plugin, as well as the plugin itself, to ensure they are supporting the same interface.
